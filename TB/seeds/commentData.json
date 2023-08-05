@@ -1,0 +1,17 @@
+[
+    {
+        "text": "Great app! I love it!",
+        "user_id": 1,
+        "post_id": 1
+    },
+    {
+        "text": "Very helpful. Thanks for sharing!",
+        "user_id": 2,
+        "post_id": 1
+    },
+    {
+        "text": "Awesome game. Can't stop playing!",
+        "user_id": 3,
+        "post_id": 3
+    }
+]

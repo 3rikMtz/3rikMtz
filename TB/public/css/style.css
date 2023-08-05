@@ -1,0 +1,361 @@
+/* styles.css */
+
+.container {
+  height: 100px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 25px;
+  transition: color 0.3s;
+  padding: 5px 10px;
+}
+
+.nav-link:hover {
+  color: #00ff33;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #00ff26;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+h1 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.post,
+.comment {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+}
+
+.post:hover {
+  background-color: #ddd;
+}
+
+.post h2 a,
+.comment h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.post h2 a:hover {
+  color: #ff5500;
+  cursor: pointer;
+}
+
+.post-details {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.created-by,
+.created-on {
+  margin: 0;
+}
+
+.created-by {
+  background-color: #ffcc00;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.created-on {
+  background-color: #99ccff;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+h3 {
+  padding-left: 130px;
+}
+
+.signUpBackground {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.login-box {
+  max-width: 350px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid #999;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #666;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  font-size: 12px;
+  color: #ff5500;
+}
+
+button[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  background: #ff5500;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button[type="submit"]:hover {
+  background: #ff7733;
+}
+
+.sign-up {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
+
+.sign-up a {
+  color: #ff5500;
+  text-decoration: none;
+}
+
+/* styles.css */
+
+.signUpBackground {
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-box {
+  width: 300px;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-box h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #333;
+  border: none;
+  border-bottom: 1px solid #333;
+  outline: none;
+  background: transparent;
+}
+
+.user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  color: #666;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #ff5500;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background: #ff5500;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #ff7733;
+}
+
+.login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login a {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.login a:hover {
+  color: #ff5500;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.posts-container {
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+
+.new-post-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff5500;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.new-post-btn:hover {
+  background-color: #ff7733;
+}
+
+.new-post-form-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.new-post-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.new-post-form-container input,
+.new-post-form-container textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+}
+
+.new-post-form-container button {
+  padding: 10px 20px;
+  background-color: #ff5500;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.new-post-form-container button:hover {
+  background-color: #ff7733;
+}
